@@ -598,6 +598,7 @@ input[type="submit"]:hover {
 }
 
 .facebook-icon {
+	border-radius: 50px;
     padding: 10px 13px;
     border: 1px solid #44619D;
     background-color: #44619D;
@@ -611,6 +612,7 @@ input[type="submit"]:hover {
 
 
 .linkedin-icon {
+	border-radius: 50px;
 	padding: 10px 10px;
 	border: 1px solid #1B86BD;
 	background-color: #1B86BD;
