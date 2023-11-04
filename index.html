@@ -59,396 +59,413 @@
 			margin-right: 10px;
 			/* Espace entre le logo et le texte */
 		}
+
 		@keyframes rainbowText {
-            0% {
-                color: red;
-            }
-            14% {
-                color: orange;
-            }
-            28% {
-                color: yellow;
-            }
-            42% {
-                color: green;
-            }
-            57% {
-                color: blue;
-            }
-            71% {
-                color: indigo;
-            }
-            85% {
-                color: violet;
-            }
-            100% {
-                color: red;
-            }
-        }
+			0% {
+				color: red;
+			}
 
-        @keyframes rainbowCircle {
-            0%, 100% {
-                background: red;
-            }
-            50% {
-                background: violet;
-            }
-        }
+			14% {
+				color: orange;
+			}
 
-        .tagline {
-            font-size: 36px;
-            text-align: center;
-            animation: rainbowText 4s linear infinite;
-        }
+			28% {
+				color: yellow;
+			}
 
-        .circle {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet, red);
-            border-radius: 50%;
-            animation: rainbowCircle 4s linear infinite;
-        }
+			42% {
+				color: green;
+			}
 
-        .circle2 {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red, violet);
-            border-radius: 50%;
-            animation: rainbowCircle 4s linear infinite;
-        }
+			57% {
+				color: blue;
+			}
 
+			71% {
+				color: indigo;
+			}
+
+			85% {
+				color: violet;
+			}
+
+			100% {
+				color: red;
+			}
+		}
+
+		@keyframes rainbowCircle {
+
+			0%,
+			100% {
+				background: red;
+			}
+
+			50% {
+				background: violet;
+			}
+		}
+
+		.tagline {
+			font-size: 36px;
+			text-align: center;
+			animation: rainbowText 4s linear infinite;
+		}
+
+		.circle {
+			width: 100px;
+			height: 100px;
+			background: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet, red);
+			border-radius: 50%;
+			animation: rainbowCircle 4s linear infinite;
+		}
+
+		.circle2 {
+			width: 100px;
+			height: 100px;
+			background: linear-gradient(to bottom right, violet, indigo, blue, green, yellow, orange, red, violet);
+			border-radius: 50%;
+			animation: rainbowCircle 4s linear infinite;
+		}
 	</style>
 </head>
 
 <body>
-	<div class="content-block" id="header">
-		<div id="overlay-1">
-			<header id="site-header" class="clearfix">
-				<div class="pull-left">
-					<a href="#"><img src="img/Abner.jpg" alt="Logo Abner" class="logo" style=" border-radius: 50%;"></a>
-					<h1 ><a href="#" class="tagline">Abner</a></h1>
-				</div>
-				<div class="pull-right">
-					<nav class="navbar site-nav" role="navigation">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle" data-toggle="collapse"
-								data-target="#bs-example-navbar-collapse-1">
-								<i class="fa fa-bars fa-2x"></i>
-							</button>
+	<div class="contain-fluid">
+		<div class="contain-fluid">
+			<div class="content-block" id="header">
+				<div id="overlay-1">
+					<header id="site-header" class="clearfix">
+						<div class="pull-left">
+							<a href="#header"><img src="img/Abner.jpg" alt="Logo Abner" class="logo"
+									style=" border-radius: 50%;"></a>
+							<h1><a href="#header" class="tagline">Abner</a></h1>
 						</div>
+						<div class="pull-right">
+							<nav class="navbar site-nav" role="navigation">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse"
+										data-target="#bs-example-navbar-collapse-1">
+										<i class="fa fa-bars fa-2x"></i>
+									</button>
+								</div>
 
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li class="active"><a href="#header"><i class="fa fa-home"></i> <span>Accueil</span></a>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#header"><i class="fa fa-home"></i>
+												<span>Accueil</span></a>
+										</li>
+										<li><a href="#portfolio"><i class="fa fa-bookmark"></i> Compétences</a></li>
+										<li><a href="#Blog"><i class="fa fa-bookmark"></i> Blog</a></li>
+										<li><a href="#services"><i class="fa fa-bullhorn"></i> Quelques faits
+												intéressants
+												sur
+												moi</a></li>
+										<li><a href="mailto:abnerpare902@gmail.com"><i class="fa fa-phone-square"></i>
+												Contacter</a></li>
+									</ul>
+								</div> <!-- /.navbar-collapse -->
+							</nav>
+						</div>
+					</header> <!-- site-header -->
+
+					<div class="middle text-center clearfix">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12">
+									<h1 style="color: white; font-size:50px;">Développeur web et applications mobile
+									</h1>
+									<p style="color: white;" class="tagline">Donnez Vie À Vos Rêves</p>
+								</div> <!-- container -->
+							</div>
+						</div>
+					</div> <!-- middle -->
+
+					<div class="bottom text-center">
+						<a href="#portfolio"><i class="fa fa-angle-down fa-3x pulse"></i></a>
+					</div>
+				</div> <!-- overlay-1 -->
+			</div> <!-- content-block -->
+
+			<div class="content-block text-center" id="portfolio">
+				<header class="block-heading cleafix">
+					<h1>Mes Compétences</h1>
+					<!-- <p>Take a look at some of my recent products</p> -->
+				</header>
+
+				<div class="isotope portfolio-items">
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">HTML</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">CSS</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Bootstrap</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">jQuery</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">moyenne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Photoshop</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">moyenne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Canva</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">WordPress</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Flutter</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Angular</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Moyenne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Ionic</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Moyenne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">php</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Figma</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Github</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+					<div class="element-item grid">
+						<div class="portfolio-item effect-zoe">
+							<div class="image-container">
+								<img class="img-responsive" alt="Portfolio" src="img/work3.png">
+								<div class="centered-text text-white">Laravel</div>
+							</div>
+							<figcaption>
+								<h2 class="hidden-xs">Bonne maitrise</span></h2>
+							</figcaption>
+						</div>
+					</div>
+				</div>
+			</div> <!-- content-block -->
+
+
+			<div id="services" class="content-block">
+				<div id="numbers" class="parallax">
+					<div class="overlay">
+						<!-- title -->
+						<div class="container-fluid numbers-title">
+							<div class="container">
+								<div class="row block-heading">
+									<h1>Quelques faits intéressants sur moi</h1>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid">
+							<!-- number list -->
+							<ul class="numbersList">
+								<li class="col-md-2 col-sm-4 col-xs-6">
+									<h4> Conférences </h4>
+									<span id="number1" class="count1 count-timer">14</span>
 								</li>
-								<li><a href="#portfolio"><i class="fa fa-bookmark"></i> Compétences</a></li>
-								<li><a href="#Blog"><i class="fa fa-bookmark"></i> Blog</a></li>
-								<li><a href="#services"><i class="fa fa-bullhorn"></i> Quelques faits intéressants sur
-										moi</a></li>
-								<li><a href="mailto:abnerpare902@gmail.com"><i class="fa fa-phone-square"></i>
-										Contacter</a></li>
-							</ul>
-						</div> <!-- /.navbar-collapse -->
-					</nav>
+								<li class="col-md-2 col-sm-4 col-xs-6">
+									<h4> Nombre de pages Facebook gérées </h4>
+									<span id="number2" class="count2">11</span>
+								</li>
+								<li class="col-md-2 col-sm-4 col-xs-6">
+									<h4>Nombre de pubs sponsorisées créées sur Facebook</h4>
+									<span id="number3" class="count3">21</span>
+								</li>
+								<li class="col-md-2 col-sm-4 col-xs-6">
+									<h4>Application mobile</h4>
+									<span >3</span>
+								</li>
+								<li class="col-md-2 col-sm-4 col-xs-6">
+									<h4>Application web</h4>
+									<span>5</span>
+								</li>
+								<li class="col-md-2 col-sm-4 col-xs-6">
+									<h4>Client satisfait </h4>
+									<span id="number6" class="count6">13</span>
+								</li>
+							</ul><!-- numbersList end -->
+						</div><!-- container-fluid end -->
+					</div><!-- overlay end -->
 				</div>
-			</header> <!-- site-header -->
+			</div>
+			<hr class="mt-1" style="background-color: rgb(11, 3, 59); width: 80%; ">
 
-			<div class="middle text-center clearfix">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<h1 style="color: white; font-size:50px;">Développeur web et applications mobile </h1>
-							<p style="color: white;" class="tagline">Donnez Vie À Vos Rêves</p>
-						</div> <!-- container -->
-					</div>
-				</div>
-			</div> <!-- middle -->
-
-			<div class="bottom text-center">
-				<a href="#portfolio"><i class="fa fa-angle-down fa-3x pulse"></i></a>
-			</div>
-		</div> <!-- overlay-1 -->
-	</div> <!-- content-block -->
-
-	<div class="content-block text-center" id="portfolio">
-		<header class="block-heading cleafix">
-			<h1>Mes Compétences</h1>
-			<!-- <p>Take a look at some of my recent products</p> -->
-		</header>
-
-		<div class="isotope portfolio-items">
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">HTML</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">CSS</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Bootstrap</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">jQuery</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">moyenne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Photoshop</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">moyenne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Canva</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">WordPress</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Flutter</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Angular</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Moyenne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Ionic</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Moyenne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">php</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Figma</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Github</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-			<div class="element-item grid">
-				<div class="portfolio-item effect-zoe">
-					<div class="image-container">
-						<img class="img-responsive" alt="Portfolio" src="img/work3.png">
-						<div class="centered-text text-white">Laravel</div>
-					</div>
-					<figcaption>
-						<h2 class="hidden-xs">Bonne maitrise</span></h2>
-					</figcaption>
-				</div>
-			</div>
-		</div>
-	</div> <!-- content-block -->
-
-
-	<div id="services" class="content-block">
-		<div id="numbers" class="parallax">
-			<div class="overlay">
-				<!-- title -->
-				<div class="container-fluid numbers-title">
-					<div class="container">
-						<div class="row block-heading">
-							<h1>Quelques faits intéressants sur moi</h1>
-						</div>
-					</div>
-				</div>
-				<div class="container-fluid">
-					<!-- number list -->
-					<ul class="numbersList">
-						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4> Conférences </h4>
-							<span id="number1" class="count1 count-timer">14</span>
-						</li>
-						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4> Nombre de pages Facebook gérées </h4>
-							<span id="number2" class="count2">11</span>
-						</li>
-						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4>Nombre de pubs sponsorisées créées sur Facebook</h4>
-							<span id="number3" class="count3">21</span>
-						</li>
-						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4>Application mobile</h4>
-							<span id="number5" class="count5">03</span>
-						</li>
-						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4>Application web</h4>
-							<span id="number5" class="count5">5</span>
-						</li>
-						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4>Client satisfait </h4>
-							<span id="number6" class="count6">13</span>
-						</li>
-					</ul><!-- numbersList end -->
-				</div><!-- container-fluid end -->
-			</div><!-- overlay end -->
-		</div>
-	</div>
-	<hr class="mt-1" style="background-color: rgb(11, 3, 59); width: 80%; ">
-
-	<div id="Blog" class="content-block">
-		<div id="numbers" class="parallax">
-			<div class="overlay">
-				<!-- title -->
-				<div class="container-fluid numbers-title">
-					<div class="container">
-						<div class="row block-heading">
-							<h1>Blog</h1>
-						</div>
-					</div>
-					<div class="row row-cols-1 row-cols-md-3 g-4">
-						<div class="col-sm-4">
-							<div class="card h-100">
-								<img src="img/b1.jpg" class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Présentation du projet(site web pour un
-										restaurant) à la formation</h5>
+			<div id="Blog" class="content-block">
+				<div id="numbers" class="parallax">
+					<div class="overlay">
+						<!-- title -->
+						<div class="container-fluid numbers-title">
+							<div class="container">
+								<div class="row block-heading">
+									<h1>Blog</h1>
+								</div>
+							</div>
+							<div class="row row-cols-1 row-cols-md-3 g-4">
+								<div class="col-sm-4">
+									<div class="card h-100">
+										<img src="img/b1.jpg" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Présentation du projet(site web pour un
+												restaurant) à la formation</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="card h-100">
+										<img src="img/b2.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Présentation du projet(site web pour une
+												bibliothèque) à la formation</h5>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="card h-100">
+										<img src="img/b4.png" class="card-img-top" alt="...">
+										<div class="card-body">
+											<h5 class="card-title">Lancement du prémier FORUM DCLIC-PRO</h5>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-sm-4">
-							<div class="card h-100">
-								<img src="img/b2.png" class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Présentation du projet(site web pour une
-										bibliothèque) à la formation</h5>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card h-100">
-								<img src="img/b4.png" class="card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Lancement du prémier FORUM DCLIC-PRO</h5>
-								</div>
-							</div>
-						</div>
-					</div>
+					</div><!-- overlay end -->
 				</div>
-			</div><!-- overlay end -->
+			</div>
 		</div>
-	</div>
-	</div>
-	<footer style="background-color: black;">
-		<div class="container-">
-			<div class="row text-center">
-				<div class="col-12 ">
-					<div class="mb-4" style="color: white;">
-						<h2>Avez-vous une question ?</h2><span class="text-center mr-1">
-							Ouagadougou/BURKINA
-							FASO -----</span>
-						<a style="color: white;" class="text-center m-2" href="tel:0022666088515"><span
-								style="color: white;">----- +226 66088515 -----</span>
-						</a>
-
-						<a style="color: white;" class="text-center m-2" href="mailto:lawadoen630@gmail.com"><span
-								style="color: white;">----- lawadoen630@gmail.com</span>
-						</a>
+		<footer style="background-color: black;">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-12 text-center texte-white ">
+						<h2 style="color: white;">Avez-vous une question ?</h2>
 					</div>
+					<div class="col-sm-4 text-center">
+						<p style="color: white;">Ouagadougou/BURKINA
+							FASO</p>
+					</div>
+					<div class="col-sm-4"><a style="color: white; text-align: center; justify-content: center;"
+							class="text-center m-2 " href="tel:0022666088515"><span style="color: white;">---
+								+226
+								66088515 ---</span></div>
+
+					<div class="col-sm-4"><a style="color: white; text-align: center; justify-content: center;"
+							class="text-center m-2" href="mailto:lawadoen630@gmail.com"><span style="color: white;">---
+								lawadoen630@gmail.com---</span></div>
 				</div>
-				<div class="col-md-12 ">
-					<ul class="social-box">
+				<div class="col-md-12 social-box ">
 						<li><a class="facebook-icon" href="https://web.facebook.com/abner.pare.3"><i
 									class="fa fa-facebook"></i></a></li>
 						<li><a class="linkedin-icon" href="https://www.linkedin.com/in/abner-par%C3%A9-6420b9272/"><i
 									class="fa fa-linkedin"></i></a></li>
-					</ul>
 				</div>
 				<div class="col-md-12 text-center">
 					<hr class="mt-1" style="background-color: white; width: 80%; ">
@@ -464,8 +481,9 @@
 			</div>
 
 
-		</div>
+	</div>
 	</footer>
+	</div>
 
 	<!-- js -->
 	<script>
