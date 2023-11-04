@@ -36,6 +36,12 @@
 			margin: 0 10px;
 			/* Espace autour des icônes (ajustez au besoin) */
 		}
+
+		img {
+    width: 200px; /* Remplacez 200px par la largeur souhaitée */
+    height: 200px; /* Remplacez 200px par la hauteur souhaitée */
+    object-fit: cover; /* Ajuster l'image pour remplir la zone définie */
+}
 	</style>
 </head>
 
@@ -62,9 +68,11 @@
 								<li class="active"><a href="#header"><i class="fa fa-home"></i> <span>Accueil</span></a>
 								</li>
 								<li><a href="#portfolio"><i class="fa fa-bookmark"></i> Compétences</a></li>
+								<li><a href="#Blog"><i class="fa fa-bookmark"></i> Blog</a></li>
 								<li><a href="#services"><i class="fa fa-bullhorn"></i> Quelques faits intéressants sur
 										moi</a></li>
-								<li><a href="mailto:abnerpare902@gmail.com"><i class="fa fa-phone-square"></i> Contacter</a></li>
+								<li><a href="mailto:abnerpare902@gmail.com"><i class="fa fa-phone-square"></i>
+										Contacter</a></li>
 							</ul>
 						</div> <!-- /.navbar-collapse -->
 					</nav>
@@ -268,11 +276,11 @@
 					<!-- number list -->
 					<ul class="numbersList">
 						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4> Conférences  </h4>
+							<h4> Conférences </h4>
 							<span id="number1" class="count1 count-timer">14</span>
 						</li>
 						<li class="col-md-2 col-sm-4 col-xs-6">
-							<h4> Nombre de pages Facebook gérées  </h4>
+							<h4> Nombre de pages Facebook gérées </h4>
 							<span id="number2" class="count2">11</span>
 						</li>
 						<li class="col-md-2 col-sm-4 col-xs-6">
@@ -296,8 +304,9 @@
 			</div><!-- overlay end -->
 		</div>
 	</div>
+	<hr class="mt-1" style="background-color: rgb(11, 3, 59); width: 80%; ">
 
-	<div id="services" class="content-block">
+	<div id="Blog" class="content-block">
 		<div id="numbers" class="parallax">
 			<div class="overlay">
 				<!-- title -->
@@ -307,11 +316,39 @@
 							<h1>Blog</h1>
 						</div>
 					</div>
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+						<div class="col-sm-4">
+							<div class="card h-100">
+								<img src="img/b1.jpg" class="card-img-top" alt="..." >
+								<div class="card-body">
+									<h5 class="card-title">Présentation du projet(site web pour un
+										restaurant) à la formation</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card h-100">
+								<img src="img/b2.png" class="card-img-top" alt="..." >
+								<div class="card-body">
+									<h5 class="card-title">Présentation du projet(site web pour une
+										bibliothèque) à la formation</h5>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="card h-100">
+								<img src="img/b4.png" class="card-img-top" alt="..." >
+								<div class="card-body">
+									<h5 class="card-title">Lancement du prémier FORUM DCLIC-PRO</h5>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div><!-- overlay end -->
 		</div>
 	</div>
-
+	</div>
 	<footer style="background-color: black;">
 		<div class="container-">
 			<div class="row text-center">
